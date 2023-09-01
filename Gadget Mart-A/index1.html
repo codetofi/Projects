@@ -1,0 +1,74 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GADGET MART</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+    margin:0px;
+    padding:0px;
+}
+
+nav{
+    display:flex;
+    /* background-color: rgb(34, 150, 200); */
+    align-items: center;
+    position:relative;  
+    /* margin-top: 10px; */  
+}  
+nav::before{
+    content: "";
+    background-color:   rgb(34, 150, 200);
+    opacity: 0.5;
+    position:absolute;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+ }
+.logo img{
+    height:5vh;
+    border-radius:100%;
+    margin:5px;
+}
+nav a{
+    margin:10px;
+    padding:4px;   
+    text-decoration: none;
+    color:black;
+    border-radius: 50px;
+}
+nav a:hover{
+ color: white;
+ background-color: black;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <div class="logo">
+                <img src="img/logo.jpg">
+            </div>
+            <a href="https://www.google.co.in">Home</a>
+            <a href="https://www.google.co.in">Info</a>
+            <a href="https://www.google.co.in">About us</a>
+            <a href="https://www.google.co.in">Contact us</a>
+        </nav>
+            
+    </header>
+    <div id="home">
+        <h1 class="hprimary">Welcome to Gadget Mart</h1>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, perspiciatis doloribus! Molestias
+            molestiae, commodi amet aspernatur est nostrum nemo neque perspiciatis 
+        </p>
+
+    </div>
+</body>
+
+</html>

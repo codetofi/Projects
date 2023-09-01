@@ -1,0 +1,20 @@
+#navbar{
+ flex-direction: column;
+}
+#home{
+ padding: 0.5rem;
+ height: 732px;
+}
+#home::before{
+  height: 852px;
+   }
+.box{
+    margin:5px;
+    padding:5px;
+}
+.box img{
+   
+}
+#products{
+    flex-direction: column;
+}
