@@ -1,0 +1,11 @@
+.movies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.movie{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    
+}
