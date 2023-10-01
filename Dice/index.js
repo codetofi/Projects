@@ -1,3 +1,5 @@
+document.querySelector(".btn").addEventListener("click",play);
+function play(){
 let randomNum1 = Math.floor(Math.random()*6+1);
 let diceImage1 = "images/dice"+randomNum1+".png";
 let randomNum2 = Math.floor(Math.random()*6+1);
@@ -14,4 +16,5 @@ else if(randomNum1>randomNum2){
 }
 else{
     document.querySelector("h1").innerHTML="Player 2 WINS!";
+}
 }
