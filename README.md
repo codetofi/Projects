@@ -1,4 +1,8 @@
 # Projects
+Simon
+https://codetofi.github.io/Projects/Simon%20Game/
+
+
 https://codetofi.github.io/Projects/Gadget%20Mart-A/index.html
 
 https://codetofi.github.io/Projects/TinDog%20Project/
